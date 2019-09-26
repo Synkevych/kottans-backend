@@ -1,0 +1,26 @@
+## Commands 
+- *ls* 
+- *more fileName* – displayed a page of text
+- *mkdir* directoryName
+- *mv fileName dirName* – move file / rename files
+- *cd dirName* - change folder 
+- *pwd* - print working directory 
+- *cd animals/reptiles/cobras snake/cobras* - copy file to specified location  
+- *rm animals/cobras* - remove file/s
+- *rmdir dirName* - remove directory 
+- *ls -l* – long listing, show permission to file 
+- *chmod* – change mode
+- *chmod o+x file* – change per. to all user execute file 
+
+- *chmod g+x* animals - add permision to execute
+- *chmod g+w \** - add permision to write all file in directory
+- *chmod ugo-rwx fileName* - take all permission away 
+- *chmod g+w fileName* - change "write" permission to the fileName
+- *"*"* match any characters even zero 
+- *"?"* match any 1 character 
+- *groups* - get a listing of your group memberships
+- *~* refer to the home directory
+- *cd ~/jokes/tmp == cd /home/keeper/jokes/tmp*
+- *man -k* spell-check a document
+- *man man* displays the manual pages describing the "man" command
+- *finger userLogin* - show logn, name, dir
