@@ -16,11 +16,27 @@
 - *chmod g+w \** - add permision to write all file in directory
 - *chmod ugo-rwx fileName* - take all permission away 
 - *chmod g+w fileName* - change "write" permission to the fileName
-- *"*"* match any characters even zero 
-- *"?"* match any 1 character 
+- **"*"** match any characters even zero 
+- **"?"** match any 1 character 
+- **.** means current directory
+- **>** sent output to a new file
+- **~** refer to the home directory
 - *groups* - get a listing of your group memberships
-- *~* refer to the home directory
 - *cd ~/jokes/tmp == cd /home/keeper/jokes/tmp*
 - *man -k* spell-check a document
 - *man man* displays the manual pages describing the "man" command
 - *finger userLogin* - show logn, name, dir
+- **cd ~ folderName** from this path to new using perent path 
+- **find ~ -name "poem"** - search file name in 
+- **find . -name "joke*"** - find all files with name joke*
+- **cat file1 file2** concatenate/combine file 
+- **more file1 file2** concatenate/combine file
+- **cd ./kids** go to folder
+- **cat fName1 fName2 > ~/newName** create/over-writte new file from 2
+- **lpr** sent to printer 
+- **lpq** - display print queue
+- **lprm** - remove from print queue
+- **lprm -P printerName jobNumber** - remove from print queue
+- **lpq -P printerName** - display print jobs in a different queue
+- **lpr -P printName fileName**
+

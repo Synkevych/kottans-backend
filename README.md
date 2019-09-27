@@ -2,7 +2,7 @@
 
 ## Git
 
-![done](https://github.com/Synkevych/kottans-backend/blob/master/git/img1.png)
+![done](https://github.com/Synkevych/kottans-backend/blob/master/git_task/img1.png)
 
 ## Unix Shell
 
