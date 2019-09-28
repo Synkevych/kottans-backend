@@ -1,4 +1,6 @@
 ## Commands 
+- **#** command operating as the superuser
+- **$** - regural user 
 - *ls* 
 - *more fileName* – displayed a page of text
 - *mkdir* directoryName
@@ -39,4 +41,17 @@
 - **lprm -P printerName jobNumber** - remove from print queue
 - **lpq -P printerName** - display print jobs in a different queue
 - **lpr -P printName fileName**
-
+- **cp -r ~jester/jokes ~** - copy dir from specified path to ~/home
+- - -r let you copy directories 
+- **df** show space on the disk in kilobytes
+- in linux system all drive "mounted" on a "/", more flexible and usable
+- **df ~** get statistic for the disk where your home dir
+- **df .** information about current disk
+- **rm -r** remove directory with files or empty
+- **ps aux** list of precesses
+- **|** pipe sends the output of a command as the input to another command
+- **grep fileName searchWord**
+- **ps aux | grep searchProgram**
+- **kill pidNumber**
+- **kill -9 PID** kill process immediately
+- **du -s * | sort -nr > $HOME/user_space_report.txt** - get the most big files on the system 
