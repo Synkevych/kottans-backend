@@ -15,6 +15,6 @@ It was a very useful lesson! Special symbol to match characters and path to the 
 So far so good. Pull request is a very useful command, here I trained to put it into practice, also learned how to give branch prefix, like "bugfix-login-form". 
 
 
-[img4](https://github.com/Synkevych/kottans-backend/blob/master/task_git-collaboration/img_git_collaboration_1.png)
+![img4](https://github.com/Synkevych/kottans-backend/blob/master/task_git-collaboration/img_git_collaboration_1.png)
 
-[img5](https://github.com/Synkevych/kottans-backend/blob/master/task_git-collaboration/img_git_collaboration_2.png)
+![img5](https://github.com/Synkevych/kottans-backend/blob/master/task_git-collaboration/img_git_collaboration_2.png)
