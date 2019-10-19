@@ -19,4 +19,8 @@ So far so good. Pull request is a very useful command, here I trained to put it 
 ![img5](https://github.com/Synkevych/kottans-backend/blob/master/task_git-collaboration/img_git_collaboration_2.png)  
 
 ## NodeJS Basics 1
-(link to info)[https://github.com/kottans/backend/blob/master/tasks/language_basics.md]
+(learnyounode)[https://github.com/kottans/backend/blob/master/node_basic_1/learnyounode/node_basic_1.png]
+Node.js дуже потужний інструмент прямо з коробки. 
+Дуже важливий матеріал, багато з пройдених тестів були на співбесідах або у тестових завдання.
+
+(functional-javascript-workshop)[https://github.com/kottans/backend/blob/master/node_basic_1/functional-javascript-workshop/fjw-img.png]
