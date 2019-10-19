@@ -19,8 +19,8 @@ So far so good. Pull request is a very useful command, here I trained to put it 
 ![img5](https://github.com/Synkevych/kottans-backend/blob/master/task_git-collaboration/img_git_collaboration_2.png)  
 
 ## NodeJS Basics 1
-[learnyounode](https://github.com/Synkevych/kottans-backend/blob/master/node_basic_1/learnyounode/node_basic_1.png)
+![learnyounode](https://github.com/Synkevych/kottans-backend/blob/master/node_basic_1/learnyounode/node_basic_1.png)
 Node.js is a very powerful tool right out of the box.
 Completed tasks were very important because they were previously asked at interviews or given in test tasks.
 
-[functional-javascript-workshop](https://github.com/Synkevych/kottans-backend/blob/master/node_basic_1/functional-javascript-workshop/fjw-img.png)
+![functional-javascript-workshop](https://github.com/Synkevych/kottans-backend/blob/master/node_basic_1/functional-javascript-workshop/fjw-img.png)
