@@ -25,7 +25,8 @@ Node.js is a very powerful tool right out of the box.
 Completed tasks were very important because they were previously asked at interviews or given in test tasks.
 
 ### functional-javascript-workshop
-![img7](https://github.com/Synkevych/kottans-backend/blob/master/node_basic_1/functional-javascript-workshop/fjw-img.png)
+![img7](https://github.com/Synkevych/kottans-backend/blob/master/node_basic_1/functional-javascript-workshop/fjw-img.png)   
+Really liked the tasks with binding, call and recursion, they clarified the essence of their work.   
 
 ### stream-adventure
-![img8]()
+![img8](https://github.com/Synkevych/kottans-backend/blob/master/node_basic_1/stream-adventure/st-img.png)
