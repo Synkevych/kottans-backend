@@ -30,3 +30,8 @@ Really liked the tasks with binding, call and recursion, they clarified the esse
 
 ### stream-adventure
 ![img8](https://github.com/Synkevych/kottans-backend/blob/master/node_basic_1/stream-adventure/st-img.png)
+
+## Memory Management
+1. What's going to happen if program reaches maximum limit of stack ?
+2. What's going to happen if program requests a big (more then 128KB) memory allocation on heap ?
+3. What's the difference between Text and Data memory segments ?
