@@ -1,0 +1,22 @@
+{
+  "name": "kottans-backend",
+  "version": "1.0.0",
+  "description": "## Git It was simple enough, it would be cool to add a test to see if a student knows the team to be shown in the course, and to give them the opportunity to skip if the answers to the tests are correct.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Synkevych/kottans-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Synkevych/kottans-backend/issues"
+  },
+  "homepage": "https://github.com/Synkevych/kottans-backend#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  }
+}
