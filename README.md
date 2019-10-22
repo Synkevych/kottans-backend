@@ -32,6 +32,22 @@ Really liked the tasks with binding, call and recursion, they clarified the esse
 ![img8](https://github.com/Synkevych/kottans-backend/blob/master/node_basic_1/stream-adventure/st-img.png)
 
 ## Memory Management
-1. What's going to happen if program reaches maximum limit of stack ?
-2. What's going to happen if program requests a big (more then 128KB) memory allocation on heap ?
+1. What's going to happen if program reaches maximum limit of stack ? 
+- **"RangeError: Maximum call stack size exceeded"**; also known as StackOverflow;
+- The Node.js will see that you start the same process, taking up more and more memory, and will automatically complete its execution.
+- MixCallStackSize in my Chrome program = 12541
+2. What's going to happen if program requests a big (more then 128KB) memory allocation on heap ? ****
+
 3. What's the difference between Text and Data memory segments ?
+- Text memory(string literals) is read only.
+
+4. Copy output of proc/vmmap command. 
+- Data memory(Objects, Arrays) is read and write.
+Command ```vmmap -64 -p <PID>``` on MAC didn't work!
+
+**Refletions**: 
+
+At the beginning I didn't understand these tasks relate to memory management in the Node.js or in the OS.
+
+Memory management was difficult part for understand.
+Memory management mechanisms in different programming languages are quite different. There are various methods for optimizing memory usage and cleaning it, but none of them guarantee the correct operation of your application. Therefore, it is necessary to understand how the basic mechanisms of memory management for optimizing sentences.
