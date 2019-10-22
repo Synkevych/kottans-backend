@@ -1,6 +1,6 @@
-  function computeMaxCallStackSize(size) {
-	  console.log("size:",size);
-		size = size || 1;
-		return computeMaxCallStackSize(size + 1);
-	}
+function computeMaxCallStackSize(size) {
+  // console.log('size:', size);
+  const newSize = size || 1;
+  return computeMaxCallStackSize(newSize + 1);
+}
 computeMaxCallStackSize(0);

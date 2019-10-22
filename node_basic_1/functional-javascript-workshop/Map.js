@@ -1,5 +1,5 @@
 function doubleAll(numbers) {
-	return numbers.map((e, i , arr) => e * 2);
+  return numbers.map((e) => e * 2);
 }
 
 module.exports = doubleAll;

@@ -18,6 +18,11 @@
   "homepage": "https://github.com/Synkevych/kottans-backend#readme",
   "devDependencies": {
     "eslint": "^6.5.1",
-    "eslint-config-airbnb": "^18.0.1"
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "jshint": "^2.10.2"
   }
 }
