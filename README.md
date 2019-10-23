@@ -33,12 +33,12 @@ Really liked the tasks with binding, call and recursion, they clarified the esse
 
 ## Memory Management
 1. What's going to happen if program reaches maximum limit of stack ? 
-- **"RangeError: Maximum call stack size exceeded"**; also known as StackOverflow;
+- **"RangeError: Maximum call stack size exceeded"**, also known as StackOverflow;
 - The Node.js will see that you start the same process, taking up more and more memory, and will automatically complete its execution.
 - MaxCallStackSize in my Chrome program = 12541
 
 2. What's going to happen if program requests a big (more then 128KB) memory allocation on heap ?   
-**Will be created private anonymous mapping using mmap**
+**Will be created private anonymous mapping using mmap**.   
 Normally on Linux system, malloc() allocates memory from the heap, and adjusts the size of the heap as required, using sbrk. When allocating blocks of memory larger than MMAP_THRESHOLD bytes, the glibc malloc() implementation allocates the memory as a private anonymous mapping using mmap. MMAP_THRESHOLD is 128 kB by default, but is adjustable using mallopt.
 
 3. What's the difference between Text and Data memory segments ?
