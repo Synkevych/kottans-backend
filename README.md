@@ -83,5 +83,4 @@ Heap - 0139a000-01576000, Stack - 7ffd3c78f000-7ffd3c7b0000, MMS - 7f2d19fd6000-
 **Refletions**: 
 At the beginning on my Mac OS vmmap command shows detailed information in which it is difficult to find heap, stack and MMS. So I used Ubuntu to do that.
 
-I remember that we passed this at the institute, but the lecturer was bad and that part was difficult to remember.
-Memory management mechanisms in different programming languages are quite different. There are various methods for optimizing memory usage and cleaning it, but none of them guarantee the correct operation of your application. Therefore, it is necessary to understand how the basic mechanisms of memory management for optimizing sentences.
+I remember that Memory Management we passed at the institute, but the lecturer was bad and that part was difficult to remember. This mechanisms in different programming languages are quite different. There are various methods for optimizing memory usage and cleaning it, but none of them guarantee the correct operation of your application. Therefore, it is necessary to understand how the basic mechanisms of memory management for optimizing sentences.
