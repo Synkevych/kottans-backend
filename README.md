@@ -33,12 +33,12 @@ Really liked the tasks with binding, call and recursion, they clarified the esse
 
 ## Memory Management
 1. What's going to happen if program reaches maximum limit of stack ? 
-- **"RangeError: Maximum call stack size exceeded"**; also known as StackOverflow;
+- **"RangeError: Maximum call stack size exceeded"**, also known as StackOverflow;
 - The Node.js will see that you start the same process, taking up more and more memory, and will automatically complete its execution.
 - MaxCallStackSize in my Chrome program = 12541
 
 2. What's going to happen if program requests a big (more then 128KB) memory allocation on heap ?   
-**Will be created private anonymous mapping using mmap**
+**Will be created private anonymous mapping using mmap**.   
 Normally on Linux system, malloc() allocates memory from the heap, and adjusts the size of the heap as required, using sbrk. When allocating blocks of memory larger than MMAP_THRESHOLD bytes, the glibc malloc() implementation allocates the memory as a private anonymous mapping using mmap. MMAP_THRESHOLD is 128 kB by default, but is adjustable using mallopt.
 
 3. What's the difference between Text and Data memory segments ?
@@ -83,6 +83,7 @@ Heap - 0139a000-01576000, Stack - 7ffd3c78f000-7ffd3c7b0000, MMS - 7f2d19fd6000-
 **Refletions**: 
 At the beginning on my Mac OS vmmap command shows detailed information in which it is difficult to find heap, stack and MMS. So I used Ubuntu to do that.
 
+
 I remember that we passed this at the institute, but the lecturer was bad and that part was difficult to remember.
 Memory management mechanisms in different programming languages are quite different. There are various methods for optimizing memory usage and cleaning it, but none of them guarantee the correct operation of your application. Therefore, it is necessary to understand how the basic mechanisms of memory management for optimizing sentences.
 
@@ -95,3 +96,4 @@ Memory management mechanisms in different programming languages are quite differ
 3. How DNS Works
 
 4. TCP Port Sniffer 👃
+
