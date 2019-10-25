@@ -85,3 +85,13 @@ At the beginning on my Mac OS vmmap command shows detailed information in which 
 
 I remember that we passed this at the institute, but the lecturer was bad and that part was difficult to remember.
 Memory management mechanisms in different programming languages are quite different. There are various methods for optimizing memory usage and cleaning it, but none of them guarantee the correct operation of your application. Therefore, it is necessary to understand how the basic mechanisms of memory management for optimizing sentences.
+
+## TCP. UDP. Network
+
+1. Internet 101
+
+2. Networking for Web Developers
+
+3. How DNS Works
+
+4. TCP Port Sniffer 👃
