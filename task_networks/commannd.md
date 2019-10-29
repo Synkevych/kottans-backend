@@ -45,7 +45,71 @@ printf 'HTTP/1.1 302 Moved\r\nLocation: https://www.eff.org/' | nc -l 2345
 ```
 - redirect user to another page from the port 2345
 
-# DNS - Domain Name System, IP address for your site
+## DNS - Domain Name System, IP address for your site
 *host -t a google.com*
 
+## host
+command host show short info about site and dns server 
+``` 
+Synkevych-MB:~ sunkevu4$ host www.alza.cz
+www.alza.cz has address 185.181.176.19
+```
 
+## dig 
+Show more readable info for scripts and DNS server's configuration file
+```
+Synkevych-MB:~ sunkevu4$  dig www.alza.cz
+
+; <<>> DiG 9.10.6 <<>> www.alza.cz
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12040
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4000
+;; QUESTION SECTION:
+;www.alza.cz.			IN	A
+
+;; ANSWER SECTION:
+www.alza.cz.		52	IN	A	185.181.176.19
+
+;; Query time: 11 msec
+;; SERVER: 2a00:1028:1:910::1#53(2a00:1028:1:910::1)
+;; WHEN: Tue Oct 29 15:26:33 CET 2019
+;; MSG SIZE  rcvd: 56
+```
+
+## DNS record types mean 
+CNAME - canonical name 
+AAAA (quad - A) - IPv6 address - joke since v9 addresses are four time longer than v4 addresses
+NS - DNS name server - whar DNS servers have the records for that domain
+
+A (Host address)
+AAAA (IPv6 host address)
+ALIAS (Auto resolved alias)
+CNAME (Canonical name for an alias)
+MX (Mail eXchange)
+NS (Name Server)
+PTR (Pointer)
+SOA (Start Of Authority)
+SRV (location of service)
+TXT (Descriptive text)
+
+### Apache - virtual hosts 
+
+### NGiNX – multiple server blocks
+
+# 256 - 1 bite = [1111|1111]
+1 bite =  8 bit = 256 
+512 - 2 bit 
+32768 - 128 bit
+
+4 bit - 16 disctinct value
+8 bit - 32
+# 65525 - the highest TCP port = 16 bite
+
+# IPv4 32-bit 4 octet - 4,294,967,296 addresses
+
+# Local nnetwork has only 8 - bit host part 
+this is 1021 addresses are available for hosts 
