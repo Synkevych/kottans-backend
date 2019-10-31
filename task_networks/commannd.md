@@ -116,3 +116,31 @@ this is 1021 addresses are available for hosts
 
 /24 - 255.255.255.0
 /16 - 255.255.0.0 
+
+# 171.64.0.0/14 Stanford University
+
+/14 - less than 2 octets of network part 
+171 - all 8 bits fixed 
+64 - only 6 bits fixed, 2 bits free [64, 65, 66, 67 - in the /14 netblock]
+
+Subnet mask for /14 netblock - 255.252.0.0
+18-bit host part = 2^18 addresses = 262144
+
+ifconfig | less 
+
+# Interfaces Quiz 
+lo - loop back interface 
+eth0 - internet interface
+
+
+# Show default Gataway 
+netstat -nr 
+
+# Private addresses netblocks 
+10.0.0.0/8
+172.16.0.0/12
+192.168.0.0/16
+
+# IPv6 128-Bits 16 Octets 
+
+# Hardware - IP - TCP - HTTP 
