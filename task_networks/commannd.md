@@ -113,3 +113,6 @@ TXT (Descriptive text)
 
 # Local nnetwork has only 8 - bit host part 
 this is 1021 addresses are available for hosts 
+
+/24 - 255.255.255.0
+/16 - 255.255.0.0 
