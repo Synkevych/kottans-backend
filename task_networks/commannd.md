@@ -144,3 +144,7 @@ netstat -nr
 # IPv6 128-Bits 16 Octets 
 
 # Hardware - IP - TCP - HTTP 
+
+tcpdump - linux commant to show info about sending data and resaving data from server 
+
+Buffering to put siquence number to all packet 
