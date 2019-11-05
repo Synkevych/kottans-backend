@@ -148,3 +148,19 @@ netstat -nr
 tcpdump - linux commant to show info about sending data and resaving data from server 
 
 Buffering to put siquence number to all packet 
+
+## TCP Flags 
+In low-level computer languages, a flag is a Boolean value — a true or false value — that is stored in memory as a single bit. If a flag bit is 1, we say the flag is set. If the flag bit is 0, the flag is cleared (or unset).
+
+## traffic jam 
+when inside the network send very long data 
+
+## Traceroute tool - all the IP addresess of all the routers that it took  
+```
+traceroute google.com
+or 
+mtr google.com
+```
+
+## Ping 
+bit/sec*sec = bits
